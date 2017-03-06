@@ -1,0 +1,86 @@
+>> 2 + 5 => 7
+>> 24 * 10 => 240
+>> 'Hi ' + 'there!' => "Hi there!"
+puts 2 + 5
+puts 24 * 10
+puts 'Hi ' + 'there!'
+>> 'Property of His Royal Highness, the King'.length => 40
+>> 'Property of His Royal Highness, the King'.reverse
+=> "gniK eht ,ssenhgiH layoR siH fo ytreporP"
+>> kings_string = 'A string fit for a king'
+>> wiener_dog_weight = 22
+>> smalls_weight = 22 => 22
+>> pounds_lost = 4
+=> 4
+>> smalls_new_weight = smalls_weight - pounds_lost => 18
+>> "18".reverse
+=> "81"
+>> 18.reverse
+=> NoMethodError: undefined method `reverse' for 18:Fixnum
+>> 100 + 17 => 117
+>> 50 - 20 => 30
+>> 10 * 10 => 100
+>> 40 / 20 => 2
+>> 22.next => 23
+>> 22.pred => 21
+>> double_quotes = "A string's the thing" => "A string's the thing"
+>> single_quotes = 'for a springly King' => "for a springly King"
+kings_string = "Property of His Royal Highness, the King"
+string_reflection = kings_string.reverse
+times_to_echo = 3
+string_echo = kings_string * times_to_echo
+puts kings_string
+puts string_reflection
+puts string_echo
+Property of His Royal Highness, the King
+gniK eht ,ssenhgiH layoR siH fo ytreporP
+Property of His Royal Highness, the KingProperty of His Royal
+Highness, the KingProperty of His Royal Highness, the King
+>> bacon_consistency = "chunky" => "chunky"
+>> number_of_bacon_strips = 3 => 3
+>> flowmatic_on = false => false
+flow_rate = 100
+puts "The flow rate is currently #{flow_rate}."
+flow_rate = 100 / 2
+puts "Now the flow rate is #{flow_rate}!"
+>> load 'flow.rb'
+The flow rate is currently 100. Now the flow rate is 50!
+=> true
+flow_rate = 100
+puts "The flow rate is currently #{flow_rate}."
+|| :$: HIS MAJESTY'S FLOWMATIC SOMETHING-OR-OTHER :$:
+     `'''''''''''''''''''''''''''''''''''''''''''''`
+                   ~= Instructions =~
+     1. Water should flow if flowmatic_on is true and
+        water_available is true.
+     2. If flowmatic_on is false, the message
+        "Flowmatic is off!" should appear.
+     3. If water_available is false, the message
+        "No water!" should appear.
+     4. If the flow_rate is above 50, the warning
+        "Warning! flow_rate is above 50!" should
+        appear, along with the current flow rate.
+     5. If the flow_rate is below 50, the warning
+        "Warning! flow_rate is below 50!" should
+        appear, along with the current flow rate.
+flowmatic_on = true
+   water_available = true
+   if flowmatic_on && water_available
+     flow_rate = 50
+   end
+ flowmatic_on = true
+water_available = true
+uif flowmatic_on && water_available
+flow_rate = 50 velsif !flowmatic_on
+puts "Flowmatic is off!" w else
+     puts "No water!"
+   end
+if flow_rate > 50
+puts "Warning! flow_rate is above 50! It's #{flow_rate}." flow_rate = 50
+puts "The flow_rate's been reset to #{flow_rate}."
+yelsif flow_rate < 50
+puts "Warning! flow_rate is below 50! It's #{flow_rate}." flow_rate = 50
+puts "The flow_rate's been reset to #{flow_rate}."
+z else
+puts "The flow_rate is #{flow_rate} (thank goodness)."
+end
